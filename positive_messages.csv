@@ -1,0 +1,396 @@
+message,author,timestamp,category,sentiment,keyword_mentioned,message_length
+"I just loved a story! It was funny.","Charlie","2025-02-17 20:07:58","other",0.53,"other",35
+"I just loved Python! It was boring.","Alice","2025-02-17 20:08:03","tech",0.86,"Python",35
+"I just loved travel! It was exciting.","Alice","2025-02-17 20:08:08","travel",0.11,"travel",37
+"I just shared game! It was boring.","Charlie","2025-02-17 20:08:13","gaming",0.08,"game",34
+"I just shared Python! It was weird.","Charlie","2025-02-17 20:08:18","tech",0.46,"Python",35
+"I just shared recipe! It was weird.","Eve","2025-02-17 20:08:23","food",0.98,"recipe",35
+"I just loved an app! It was funny.","Bob","2025-02-17 20:08:28","other",0.28,"other",34
+"I just shared an app! It was exciting.","Eve","2025-02-17 20:08:33","other",0.97,"other",38
+"I just shared an app! It was funny.","Alice","2025-02-17 20:08:38","other",0.12,"other",35
+"I just loved a trick! It was boring.","Charlie","2025-02-17 20:08:43","other",0.44,"other",36
+"I just found an app! It was exciting.","Alice","2025-02-17 20:08:48","other",0.61,"other",37
+"I just shared a movie! It was exciting.","Eve","2025-02-17 20:08:53","entertainment",0.71,"movie",39
+"I just tried a trick! It was amazing.","Alice","2025-02-17 20:08:58","other",0.22,"other",37
+"I just saw a meme! It was amazing.","Bob","2025-02-17 20:09:03","humor",0.23,"meme",34
+"I just saw recipe! It was amazing.","Bob","2025-02-17 20:09:08","food",0.84,"recipe",34
+"I just shared recipe! It was weird.","Eve","2025-02-17 20:09:13","food",0.73,"recipe",35
+"I just tried an app! It was weird.","Charlie","2025-02-17 20:09:18","other",0.43,"other",34
+"I just shared game! It was boring.","Alice","2025-02-17 20:09:23","gaming",0.65,"game",34
+"I just saw an app! It was boring.","Eve","2025-02-17 20:09:28","other",0.92,"other",33
+"I just shared game! It was boring.","Eve","2025-02-17 20:09:33","gaming",0.6,"game",34
+"I just found game! It was amazing.","Alice","2025-02-17 20:09:38","gaming",0.67,"game",34
+"I just tried a trick! It was exciting.","Alice","2025-02-17 20:09:43","other",0.45,"other",38
+"I just tried a movie! It was weird.","Eve","2025-02-17 20:09:48","entertainment",0.83,"movie",35
+"I just shared an app! It was weird.","Charlie","2025-02-17 20:09:53","other",0.67,"other",35
+"I just found an app! It was exciting.","Charlie","2025-02-17 20:09:58","other",0.97,"other",37
+"I just shared a movie! It was amazing.","Bob","2025-02-17 20:10:03","entertainment",0.59,"movie",38
+"I just loved an app! It was weird.","Eve","2025-02-17 20:10:08","other",0.97,"other",34
+"I just tried recipe! It was exciting.","Alice","2025-02-17 20:10:13","food",0.26,"recipe",37
+"I just shared an app! It was exciting.","Charlie","2025-02-17 20:10:18","other",0.4,"other",38
+"I just tried a movie! It was weird.","Bob","2025-02-17 20:10:23","entertainment",0.82,"movie",35
+"I just found a trick! It was exciting.","Alice","2025-02-17 20:10:28","other",0.25,"other",38
+"I just tried a trick! It was weird.","Bob","2025-02-17 20:10:33","other",0.01,"other",35
+"I just tried travel! It was weird.","Eve","2025-02-17 20:10:38","travel",0.19,"travel",34
+"I just saw Python! It was amazing.","Charlie","2025-02-17 20:10:43","tech",0.44,"Python",34
+"I just found game! It was boring.","Alice","2025-02-17 20:10:48","gaming",0.99,"game",33
+"I just found game! It was funny.","Eve","2025-02-17 20:10:53","gaming",0.05,"game",32
+"I just shared a movie! It was funny.","Charlie","2025-02-17 20:10:58","entertainment",0.03,"movie",36
+"I just tried Python! It was amazing.","Charlie","2025-02-17 20:11:03","tech",0.38,"Python",36
+"I just loved a meme! It was exciting.","Charlie","2025-02-17 20:11:08","humor",0.95,"meme",37
+"I just tried an app! It was exciting.","Bob","2025-02-17 20:11:13","other",0.77,"other",37
+"I just loved game! It was weird.","Eve","2025-02-17 20:11:18","gaming",0.94,"game",32
+"I just loved game! It was amazing.","Eve","2025-02-17 20:11:23","gaming",0.29,"game",34
+"I just saw a movie! It was exciting.","Charlie","2025-02-17 20:11:28","entertainment",0.42,"movie",36
+"I just loved game! It was funny.","Bob","2025-02-17 20:11:33","gaming",0.74,"game",32
+"I just loved an app! It was amazing.","Alice","2025-02-17 20:11:38","other",0.13,"other",36
+"I just found an app! It was exciting.","Charlie","2025-02-17 20:11:43","other",0.11,"other",37
+"I just found game! It was funny.","Charlie","2025-02-17 20:11:48","gaming",0.75,"game",32
+"I just shared a meme! It was boring.","Alice","2025-02-17 20:11:53","humor",0.42,"meme",36
+"I just shared game! It was weird.","Alice","2025-02-17 20:11:58","gaming",0.14,"game",33
+"I just found an app! It was weird.","Bob","2025-02-17 20:12:03","other",0.74,"other",34
+"I just found a movie! It was weird.","Eve","2025-02-17 20:12:08","entertainment",0.11,"movie",35
+"I just shared an app! It was amazing.","Alice","2025-02-17 20:12:13","other",0.23,"other",37
+"I just shared a story! It was amazing.","Eve","2025-02-17 20:12:18","other",0.5,"other",38
+"I just tried Python! It was weird.","Bob","2025-02-17 20:12:23","tech",0.99,"Python",34
+"I just saw a meme! It was amazing.","Eve","2025-02-17 20:12:28","humor",0.66,"meme",34
+"I just loved JavaScript! It was weird.","Eve","2025-02-17 20:12:33","tech",0.88,"JavaScript",38
+"I just shared Python! It was exciting.","Charlie","2025-02-17 20:12:38","tech",0.38,"Python",38
+"I just found Python! It was weird.","Alice","2025-02-17 20:12:43","tech",0.32,"Python",34
+"I just loved recipe! It was exciting.","Eve","2025-02-17 20:12:48","food",0.46,"recipe",37
+"I just loved an app! It was boring.","Bob","2025-02-17 20:12:53","other",0.83,"other",35
+"I just saw an app! It was amazing.","Alice","2025-02-17 20:12:58","other",0.18,"other",34
+"I just loved a trick! It was funny.","Eve","2025-02-17 20:13:03","other",0.55,"other",35
+"I just shared game! It was amazing.","Bob","2025-02-17 20:13:08","gaming",1.0,"game",35
+"I just tried a meme! It was boring.","Alice","2025-02-17 20:13:13","humor",0.86,"meme",35
+"I just found a movie! It was amazing.","Eve","2025-02-17 20:13:18","entertainment",0.2,"movie",37
+"I just found a meme! It was weird.","Charlie","2025-02-17 20:13:23","humor",0.84,"meme",34
+"I just found travel! It was amazing.","Bob","2025-02-17 20:13:28","travel",0.52,"travel",36
+"I just tried game! It was funny.","Alice","2025-02-17 20:13:33","gaming",0.62,"game",32
+"I just loved game! It was weird.","Eve","2025-02-17 20:13:38","gaming",0.1,"game",32
+"I just tried a meme! It was funny.","Charlie","2025-02-17 20:13:44","humor",0.22,"meme",34
+"I just tried a movie! It was weird.","Eve","2025-02-17 20:13:49","entertainment",0.65,"movie",35
+"I just found recipe! It was weird.","Alice","2025-02-17 20:13:54","food",0.55,"recipe",34
+"I just tried travel! It was amazing.","Eve","2025-02-17 20:13:59","travel",0.98,"travel",36
+"I just shared recipe! It was exciting.","Eve","2025-02-17 20:14:04","food",0.86,"recipe",38
+"I just tried a meme! It was weird.","Eve","2025-02-17 20:14:09","humor",0.84,"meme",34
+"I just tried an app! It was exciting.","Eve","2025-02-17 20:14:14","other",0.93,"other",37
+"I just found recipe! It was weird.","Bob","2025-02-17 20:14:19","food",0.3,"recipe",34
+"I just found travel! It was amazing.","Bob","2025-02-17 20:14:24","travel",0.05,"travel",36
+"I just tried an app! It was exciting.","Bob","2025-02-17 20:14:29","other",0.28,"other",37
+"I just shared game! It was exciting.","Eve","2025-02-17 20:14:34","gaming",0.23,"game",36
+"I just shared Python! It was boring.","Alice","2025-02-17 20:14:39","tech",0.77,"Python",36
+"I just found travel! It was weird.","Charlie","2025-02-17 20:14:44","travel",0.29,"travel",34
+"I just loved travel! It was funny.","Eve","2025-02-17 20:14:49","travel",0.12,"travel",34
+"I just loved Python! It was funny.","Bob","2025-02-17 20:14:54","tech",0.8,"Python",34
+"I just saw game! It was boring.","Alice","2025-02-17 20:14:59","gaming",0.79,"game",31
+"I just loved Python! It was boring.","Bob","2025-02-17 20:15:04","tech",0.49,"Python",35
+"I just shared recipe! It was boring.","Bob","2025-02-17 20:15:09","food",0.39,"recipe",36
+"I just saw a movie! It was amazing.","Alice","2025-02-17 20:15:14","entertainment",0.68,"movie",35
+"I just loved a story! It was funny.","Alice","2025-02-17 20:15:19","other",0.03,"other",35
+"I just tried recipe! It was weird.","Bob","2025-02-17 20:15:24","food",0.79,"recipe",34
+"I just loved recipe! It was boring.","Eve","2025-02-17 20:15:29","food",0.1,"recipe",35
+"I just saw JavaScript! It was weird.","Bob","2025-02-17 20:15:34","tech",0.39,"JavaScript",36
+"I just shared game! It was boring.","Eve","2025-02-17 20:15:39","gaming",0.79,"game",34
+"I just tried a trick! It was amazing.","Alice","2025-02-17 20:15:44","other",0.89,"other",37
+"I just found a meme! It was amazing.","Charlie","2025-02-17 20:15:49","humor",0.93,"meme",36
+"I just shared Python! It was weird.","Bob","2025-02-17 20:15:54","tech",0.64,"Python",35
+"I just saw game! It was weird.","Bob","2025-02-17 20:15:59","gaming",0.26,"game",30
+"I just found travel! It was weird.","Eve","2025-02-17 20:16:04","travel",0.75,"travel",34
+"I just loved JavaScript! It was weird.","Bob","2025-02-17 20:16:09","tech",0.62,"JavaScript",38
+"I just found a movie! It was exciting.","Alice","2025-02-17 20:16:14","entertainment",0.05,"movie",38
+"I just loved recipe! It was exciting.","Bob","2025-02-17 20:16:19","food",0.59,"recipe",37
+"I just shared recipe! It was exciting.","Bob","2025-02-17 20:16:24","food",0.07,"recipe",38
+"I just saw recipe! It was exciting.","Bob","2025-02-17 20:16:29","food",0.82,"recipe",35
+"I just found a meme! It was amazing.","Alice","2025-02-17 20:16:34","humor",0.59,"meme",36
+"I just tried Python! It was funny.","Alice","2025-02-17 20:16:39","tech",0.87,"Python",34
+"I just found recipe! It was amazing.","Eve","2025-02-17 20:16:44","food",0.58,"recipe",36
+"I just loved a story! It was weird.","Charlie","2025-02-17 20:16:49","other",0.7,"other",35
+"I just tried a trick! It was weird.","Charlie","2025-02-17 20:16:54","other",0.1,"other",35
+"I just found Python! It was amazing.","Bob","2025-02-17 20:16:59","tech",0.56,"Python",36
+"I just tried Python! It was weird.","Eve","2025-02-17 20:17:04","tech",0.67,"Python",34
+"I just saw a trick! It was boring.","Charlie","2025-02-17 20:17:09","other",0.82,"other",34
+"I just saw an app! It was exciting.","Alice","2025-02-17 20:17:14","other",0.91,"other",35
+"I just tried a meme! It was weird.","Bob","2025-02-17 20:17:19","humor",0.67,"meme",34
+"I just found a story! It was exciting.","Bob","2025-02-17 20:17:24","other",0.1,"other",38
+"I just found a trick! It was funny.","Eve","2025-02-17 20:17:29","other",0.89,"other",35
+"I just saw an app! It was exciting.","Alice","2025-02-17 20:17:34","other",0.72,"other",35
+"I just loved a trick! It was exciting.","Alice","2025-02-17 20:17:39","other",0.83,"other",38
+"I just found an app! It was funny.","Eve","2025-02-17 20:17:44","other",0.63,"other",34
+"I just tried a story! It was weird.","Bob","2025-02-17 20:17:49","other",0.53,"other",35
+"I just saw Python! It was amazing.","Bob","2025-02-17 20:17:54","tech",0.72,"Python",34
+"I just saw a story! It was funny.","Eve","2025-02-17 20:17:59","other",0.75,"other",33
+"I just found an app! It was exciting.","Bob","2025-02-17 20:18:04","other",0.02,"other",37
+"I just loved a meme! It was amazing.","Alice","2025-02-17 20:18:09","humor",0.91,"meme",36
+"I just tried a movie! It was boring.","Eve","2025-02-17 20:18:14","entertainment",0.85,"movie",36
+"I just tried game! It was weird.","Eve","2025-02-17 20:18:19","gaming",0.74,"game",32
+"I just loved an app! It was funny.","Alice","2025-02-17 20:18:24","other",1.0,"other",34
+"I just loved Python! It was exciting.","Eve","2025-02-17 20:18:29","tech",0.57,"Python",37
+"I just tried an app! It was boring.","Charlie","2025-02-17 20:18:34","other",0.57,"other",35
+"I just shared an app! It was amazing.","Charlie","2025-02-17 20:18:39","other",0.58,"other",37
+"I just tried a trick! It was weird.","Charlie","2025-02-17 20:18:44","other",0.67,"other",35
+"I just loved an app! It was weird.","Alice","2025-02-17 20:18:49","other",0.45,"other",34
+"I just shared travel! It was amazing.","Eve","2025-02-17 20:18:54","travel",0.47,"travel",37
+"I just loved JavaScript! It was weird.","Bob","2025-02-17 20:18:59","tech",0.39,"JavaScript",38
+"I just tried Python! It was boring.","Alice","2025-02-17 20:19:04","tech",0.39,"Python",35
+"I just found a meme! It was exciting.","Alice","2025-02-17 20:19:09","humor",0.15,"meme",37
+"I just tried a movie! It was funny.","Bob","2025-02-17 20:19:14","entertainment",0.71,"movie",35
+"I just tried game! It was boring.","Eve","2025-02-17 20:19:19","gaming",0.38,"game",33
+"I just loved a story! It was boring.","Charlie","2025-02-17 20:19:24","other",0.17,"other",36
+"I just saw Python! It was weird.","Bob","2025-02-17 20:19:29","tech",0.93,"Python",32
+"I just saw travel! It was funny.","Alice","2025-02-17 20:19:34","travel",0.39,"travel",32
+"I just saw recipe! It was funny.","Charlie","2025-02-17 20:19:39","food",0.65,"recipe",32
+"I just shared JavaScript! It was boring.","Alice","2025-02-17 20:19:44","tech",0.84,"JavaScript",40
+"I just tried recipe! It was exciting.","Eve","2025-02-17 20:19:49","food",0.43,"recipe",37
+"I just tried JavaScript! It was weird.","Alice","2025-02-17 20:37:11","tech",0.32,"JavaScript",38
+"I just found game! It was exciting.","Charlie","2025-02-17 20:37:16","gaming",0.99,"game",35
+"I just loved an app! It was exciting.","Eve","2025-02-17 20:37:21","other",0.45,"other",37
+"I just shared JavaScript! It was amazing.","Eve","2025-02-17 20:37:26","tech",0.35,"JavaScript",41
+"I just found a story! It was weird.","Bob","2025-02-17 20:37:31","other",0.22,"other",35
+"I just saw game! It was exciting.","Charlie","2025-02-17 20:37:36","gaming",0.33,"game",33
+"I just loved a movie! It was amazing.","Eve","2025-02-17 20:37:41","entertainment",0.29,"movie",37
+"I just tried a story! It was exciting.","Bob","2025-02-17 20:37:46","other",0.31,"other",38
+"I just loved an app! It was boring.","Bob","2025-02-17 20:37:51","other",0.04,"other",35
+"I just found an app! It was amazing.","Bob","2025-02-17 20:37:56","other",0.11,"other",36
+"I just found a meme! It was boring.","Alice","2025-02-17 20:38:01","humor",0.99,"meme",35
+"I just found JavaScript! It was boring.","Alice","2025-02-17 20:38:06","tech",0.99,"JavaScript",39
+"I just tried a trick! It was boring.","Charlie","2025-02-17 20:38:11","other",0.91,"other",36
+"I just saw a story! It was amazing.","Eve","2025-02-17 20:38:16","other",0.69,"other",35
+"I just loved an app! It was boring.","Alice","2025-02-17 20:38:21","other",0.53,"other",35
+"I just tried Python! It was amazing.","Eve","2025-02-17 20:38:26","tech",0.02,"Python",36
+"I just tried an app! It was funny.","Eve","2025-02-17 20:38:31","other",0.36,"other",34
+"I just loved game! It was boring.","Bob","2025-02-17 20:38:36","gaming",0.66,"game",33
+"I just tried an app! It was amazing.","Charlie","2025-02-17 20:38:41","other",0.98,"other",36
+"I just found a trick! It was funny.","Eve","2025-02-17 20:38:46","other",0.46,"other",35
+"I just shared recipe! It was weird.","Bob","2025-02-17 20:38:51","food",0.46,"recipe",35
+"I just saw recipe! It was amazing.","Bob","2025-02-17 20:38:56","food",0.4,"recipe",34
+"I just loved a trick! It was funny.","Eve","2025-02-17 20:39:01","other",0.87,"other",35
+"I just shared Python! It was boring.","Alice","2025-02-17 20:39:06","tech",0.73,"Python",36
+"I just saw JavaScript! It was weird.","Charlie","2025-02-17 20:39:11","tech",0.93,"JavaScript",36
+"I just shared recipe! It was weird.","Bob","2025-02-17 20:39:16","food",0.96,"recipe",35
+"I just found JavaScript! It was exciting.","Eve","2025-02-17 20:39:21","tech",0.35,"JavaScript",41
+"I just found game! It was weird.","Bob","2025-02-17 20:39:26","gaming",0.61,"game",32
+"I just found a story! It was funny.","Bob","2025-02-17 20:39:31","other",0.86,"other",35
+"I just saw recipe! It was boring.","Eve","2025-02-17 20:39:36","food",0.36,"recipe",33
+"I just found a trick! It was funny.","Bob","2025-02-17 20:39:41","other",0.29,"other",35
+"I just shared an app! It was funny.","Charlie","2025-02-17 20:39:46","other",0.27,"other",35
+"I just saw a story! It was amazing.","Alice","2025-02-17 20:39:51","other",0.69,"other",35
+"I just found a movie! It was weird.","Charlie","2025-02-17 20:39:56","entertainment",0.78,"movie",35
+"I just found a trick! It was amazing.","Bob","2025-02-17 20:40:01","other",0.52,"other",37
+"I just found game! It was funny.","Alice","2025-02-17 20:40:06","gaming",0.21,"game",32
+"I just saw a movie! It was boring.","Alice","2025-02-17 20:40:11","entertainment",0.15,"movie",34
+"I just found an app! It was exciting.","Charlie","2025-02-17 20:40:16","other",0.12,"other",37
+"I just found a meme! It was weird.","Eve","2025-02-17 20:40:21","humor",0.24,"meme",34
+"I just found JavaScript! It was amazing.","Charlie","2025-02-17 20:40:26","tech",0.36,"JavaScript",40
+"I just found a meme! It was funny.","Bob","2025-02-17 20:40:31","humor",0.5,"meme",34
+"I just found game! It was exciting.","Charlie","2025-02-17 20:40:36","gaming",0.05,"game",35
+"I just saw a meme! It was weird.","Alice","2025-02-17 20:40:41","humor",0.75,"meme",32
+"I just tried a trick! It was funny.","Charlie","2025-02-17 20:40:46","other",0.2,"other",35
+"I just found travel! It was exciting.","Charlie","2025-02-17 20:40:51","travel",0.61,"travel",37
+"I just shared an app! It was amazing.","Charlie","2025-02-17 20:40:56","other",0.33,"other",37
+"I just saw a meme! It was amazing.","Charlie","2025-02-17 20:41:01","humor",0.78,"meme",34
+"I just saw JavaScript! It was funny.","Charlie","2025-02-17 20:41:06","tech",0.66,"JavaScript",36
+"I just shared a movie! It was amazing.","Eve","2025-02-17 20:41:11","entertainment",0.98,"movie",38
+"I just tried JavaScript! It was amazing.","Alice","2025-02-17 20:41:16","tech",0.95,"JavaScript",40
+"I just found travel! It was amazing.","Alice","2025-02-17 20:41:21","travel",0.03,"travel",36
+"I just shared an app! It was boring.","Alice","2025-02-17 20:41:26","other",0.19,"other",36
+"I just tried an app! It was exciting.","Charlie","2025-02-17 20:41:31","other",0.51,"other",37
+"I just saw a story! It was exciting.","Bob","2025-02-17 20:41:36","other",0.87,"other",36
+"I just tried game! It was weird.","Charlie","2025-02-17 20:41:41","gaming",0.32,"game",32
+"I just shared a story! It was amazing.","Charlie","2025-02-17 20:41:46","other",0.95,"other",38
+"I just loved a meme! It was boring.","Eve","2025-02-17 20:41:51","humor",0.59,"meme",35
+"I just found a story! It was funny.","Bob","2025-02-17 20:41:56","other",0.99,"other",35
+"I just saw an app! It was exciting.","Alice","2025-02-17 20:42:01","other",0.88,"other",35
+"I just tried a movie! It was funny.","Alice","2025-02-17 20:42:07","entertainment",0.82,"movie",35
+"I just found JavaScript! It was amazing.","Eve","2025-02-17 20:42:12","tech",0.82,"JavaScript",40
+"I just loved a meme! It was exciting.","Charlie","2025-02-17 20:42:17","humor",0.61,"meme",37
+"I just found recipe! It was amazing.","Bob","2025-02-17 20:42:22","food",0.35,"recipe",36
+"I just found a movie! It was funny.","Charlie","2025-02-17 20:42:27","entertainment",0.23,"movie",35
+"I just loved a movie! It was weird.","Charlie","2025-02-17 20:42:32","entertainment",0.49,"movie",35
+"I just saw an app! It was amazing.","Charlie","2025-02-17 20:42:37","other",0.43,"other",34
+"I just found recipe! It was funny.","Eve","2025-02-17 20:42:42","food",0.1,"recipe",34
+"I just found an app! It was boring.","Bob","2025-02-17 20:42:47","other",0.01,"other",35
+"I just loved an app! It was weird.","Charlie","2025-02-17 20:42:52","other",0.21,"other",34
+"I just saw travel! It was exciting.","Eve","2025-02-17 20:42:57","travel",0.65,"travel",35
+"I just loved recipe! It was exciting.","Alice","2025-02-17 20:43:02","food",0.04,"recipe",37
+"I just loved travel! It was weird.","Bob","2025-02-17 20:43:07","travel",0.78,"travel",34
+"I just saw a movie! It was boring.","Eve","2025-02-17 20:43:12","entertainment",0.89,"movie",34
+"I just loved JavaScript! It was weird.","Charlie","2025-02-17 20:43:17","tech",0.31,"JavaScript",38
+"I just loved recipe! It was funny.","Eve","2025-02-17 20:43:22","food",0.66,"recipe",34
+"I just shared a trick! It was boring.","Alice","2025-02-17 20:43:27","other",0.29,"other",37
+"I just shared a movie! It was exciting.","Charlie","2025-02-17 20:43:32","entertainment",0.03,"movie",39
+"I just tried a movie! It was weird.","Bob","2025-02-17 20:43:37","entertainment",0.86,"movie",35
+"I just shared a movie! It was boring.","Alice","2025-02-17 20:43:42","entertainment",0.75,"movie",37
+"I just shared recipe! It was amazing.","Bob","2025-02-17 20:43:47","food",0.07,"recipe",37
+"I just loved JavaScript! It was exciting.","Eve","2025-02-17 20:43:52","tech",0.41,"JavaScript",41
+"I just loved travel! It was boring.","Eve","2025-02-17 20:43:57","travel",0.13,"travel",35
+"I just shared JavaScript! It was amazing.","Charlie","2025-02-17 20:44:02","tech",0.36,"JavaScript",41
+"I just loved game! It was funny.","Charlie","2025-02-17 20:44:07","gaming",0.8,"game",32
+"I just saw a movie! It was weird.","Charlie","2025-02-17 20:44:12","entertainment",0.91,"movie",33
+"I just saw recipe! It was funny.","Alice","2025-02-17 20:44:17","food",1.0,"recipe",32
+"I just shared JavaScript! It was funny.","Eve","2025-02-17 20:44:22","tech",0.89,"JavaScript",39
+"I just tried an app! It was weird.","Eve","2025-02-17 20:44:27","other",0.88,"other",34
+"I just saw game! It was exciting.","Alice","2025-02-17 20:44:32","gaming",0.46,"game",33
+"I just shared recipe! It was boring.","Charlie","2025-02-17 20:44:37","food",0.5,"recipe",36
+"I just saw game! It was exciting.","Bob","2025-02-17 20:44:42","gaming",0.58,"game",33
+"I just saw travel! It was funny.","Charlie","2025-02-17 20:44:47","travel",0.94,"travel",32
+"I just saw recipe! It was weird.","Alice","2025-02-17 20:44:52","food",0.4,"recipe",32
+"I just saw a meme! It was boring.","Bob","2025-02-17 20:44:57","humor",0.73,"meme",33
+"I just loved a movie! It was exciting.","Charlie","2025-02-17 20:45:02","entertainment",0.24,"movie",38
+"I just tried JavaScript! It was weird.","Bob","2025-02-17 20:45:07","tech",0.72,"JavaScript",38
+"I just shared recipe! It was boring.","Bob","2025-02-17 20:45:12","food",0.89,"recipe",36
+"I just shared a meme! It was funny.","Bob","2025-02-17 20:45:17","humor",0.72,"meme",35
+"I just tried game! It was exciting.","Bob","2025-02-17 20:45:22","gaming",0.5,"game",35
+"I just tried an app! It was boring.","Bob","2025-02-17 20:45:27","other",0.53,"other",35
+"I just loved JavaScript! It was weird.","Bob","2025-02-17 20:45:32","tech",0.7,"JavaScript",38
+"I just tried Python! It was amazing.","Eve","2025-02-17 20:45:37","tech",0.47,"Python",36
+"I just found a meme! It was exciting.","Bob","2025-02-17 20:45:42","humor",0.78,"meme",37
+"I just shared recipe! It was boring.","Charlie","2025-02-17 20:45:47","food",0.21,"recipe",36
+"I just shared a trick! It was funny.","Charlie","2025-02-17 20:45:52","other",0.42,"other",36
+"I just saw JavaScript! It was amazing.","Alice","2025-02-17 20:45:57","tech",0.35,"JavaScript",38
+"I just saw Python! It was amazing.","Eve","2025-02-17 20:46:02","tech",0.78,"Python",34
+"I just tried a story! It was weird.","Eve","2025-02-17 20:46:07","other",0.71,"other",35
+"I just loved travel! It was weird.","Charlie","2025-02-17 20:46:12","travel",0.48,"travel",34
+"I just tried a trick! It was funny.","Bob","2025-02-17 20:46:17","other",0.27,"other",35
+"I just tried JavaScript! It was weird.","Alice","2025-02-17 20:37:11","tech",0.32,"JavaScript",38
+"I just found game! It was exciting.","Charlie","2025-02-17 20:37:16","gaming",0.99,"game",35
+"I just loved an app! It was exciting.","Eve","2025-02-17 20:37:21","other",0.45,"other",37
+"I just shared JavaScript! It was amazing.","Eve","2025-02-17 20:37:26","tech",0.35,"JavaScript",41
+"I just found a story! It was weird.","Bob","2025-02-17 20:37:31","other",0.22,"other",35
+"I just saw game! It was exciting.","Charlie","2025-02-17 20:37:36","gaming",0.33,"game",33
+"I just loved a movie! It was amazing.","Eve","2025-02-17 20:37:41","entertainment",0.29,"movie",37
+"I just tried a story! It was exciting.","Bob","2025-02-17 20:37:46","other",0.31,"other",38
+"I just loved an app! It was boring.","Bob","2025-02-17 20:37:51","other",0.04,"other",35
+"I just found an app! It was amazing.","Bob","2025-02-17 20:37:56","other",0.11,"other",36
+"I just found a meme! It was boring.","Alice","2025-02-17 20:38:01","humor",0.99,"meme",35
+"I just found JavaScript! It was boring.","Alice","2025-02-17 20:38:06","tech",0.99,"JavaScript",39
+"I just tried a trick! It was boring.","Charlie","2025-02-17 20:38:11","other",0.91,"other",36
+"I just saw a story! It was amazing.","Eve","2025-02-17 20:38:16","other",0.69,"other",35
+"I just loved an app! It was boring.","Alice","2025-02-17 20:38:21","other",0.53,"other",35
+"I just tried Python! It was amazing.","Eve","2025-02-17 20:38:26","tech",0.02,"Python",36
+"I just tried an app! It was funny.","Eve","2025-02-17 20:38:31","other",0.36,"other",34
+"I just loved game! It was boring.","Bob","2025-02-17 20:38:36","gaming",0.66,"game",33
+"I just tried an app! It was amazing.","Charlie","2025-02-17 20:38:41","other",0.98,"other",36
+"I just found a trick! It was funny.","Eve","2025-02-17 20:38:46","other",0.46,"other",35
+"I just shared recipe! It was weird.","Bob","2025-02-17 20:38:51","food",0.46,"recipe",35
+"I just saw recipe! It was amazing.","Bob","2025-02-17 20:38:56","food",0.4,"recipe",34
+"I just loved a trick! It was funny.","Eve","2025-02-17 20:39:01","other",0.87,"other",35
+"I just shared Python! It was boring.","Alice","2025-02-17 20:39:06","tech",0.73,"Python",36
+"I just saw JavaScript! It was weird.","Charlie","2025-02-17 20:39:11","tech",0.93,"JavaScript",36
+"I just shared recipe! It was weird.","Bob","2025-02-17 20:39:16","food",0.96,"recipe",35
+"I just found JavaScript! It was exciting.","Eve","2025-02-17 20:39:21","tech",0.35,"JavaScript",41
+"I just found game! It was weird.","Bob","2025-02-17 20:39:26","gaming",0.61,"game",32
+"I just found a story! It was funny.","Bob","2025-02-17 20:39:31","other",0.86,"other",35
+"I just saw recipe! It was boring.","Eve","2025-02-17 20:39:36","food",0.36,"recipe",33
+"I just found a trick! It was funny.","Bob","2025-02-17 20:39:41","other",0.29,"other",35
+"I just shared an app! It was funny.","Charlie","2025-02-17 20:39:46","other",0.27,"other",35
+"I just saw a story! It was amazing.","Alice","2025-02-17 20:39:51","other",0.69,"other",35
+"I just found a movie! It was weird.","Charlie","2025-02-17 20:39:56","entertainment",0.78,"movie",35
+"I just found a trick! It was amazing.","Bob","2025-02-17 20:40:01","other",0.52,"other",37
+"I just found game! It was funny.","Alice","2025-02-17 20:40:06","gaming",0.21,"game",32
+"I just saw a movie! It was boring.","Alice","2025-02-17 20:40:11","entertainment",0.15,"movie",34
+"I just found an app! It was exciting.","Charlie","2025-02-17 20:40:16","other",0.12,"other",37
+"I just found a meme! It was weird.","Eve","2025-02-17 20:40:21","humor",0.24,"meme",34
+"I just found JavaScript! It was amazing.","Charlie","2025-02-17 20:40:26","tech",0.36,"JavaScript",40
+"I just found a meme! It was funny.","Bob","2025-02-17 20:40:31","humor",0.5,"meme",34
+"I just found game! It was exciting.","Charlie","2025-02-17 20:40:36","gaming",0.05,"game",35
+"I just saw a meme! It was weird.","Alice","2025-02-17 20:40:41","humor",0.75,"meme",32
+"I just tried a trick! It was funny.","Charlie","2025-02-17 20:40:46","other",0.2,"other",35
+"I just found travel! It was exciting.","Charlie","2025-02-17 20:40:51","travel",0.61,"travel",37
+"I just shared an app! It was amazing.","Charlie","2025-02-17 20:40:56","other",0.33,"other",37
+"I just saw a meme! It was amazing.","Charlie","2025-02-17 20:41:01","humor",0.78,"meme",34
+"I just saw JavaScript! It was funny.","Charlie","2025-02-17 20:41:06","tech",0.66,"JavaScript",36
+"I just shared a movie! It was amazing.","Eve","2025-02-17 20:41:11","entertainment",0.98,"movie",38
+"I just tried JavaScript! It was amazing.","Alice","2025-02-17 20:41:16","tech",0.95,"JavaScript",40
+"I just found travel! It was amazing.","Alice","2025-02-17 20:41:21","travel",0.03,"travel",36
+"I just shared an app! It was boring.","Alice","2025-02-17 20:41:26","other",0.19,"other",36
+"I just tried an app! It was exciting.","Charlie","2025-02-17 20:41:31","other",0.51,"other",37
+"I just saw a story! It was exciting.","Bob","2025-02-17 20:41:36","other",0.87,"other",36
+"I just tried game! It was weird.","Charlie","2025-02-17 20:41:41","gaming",0.32,"game",32
+"I just shared a story! It was amazing.","Charlie","2025-02-17 20:41:46","other",0.95,"other",38
+"I just loved a meme! It was boring.","Eve","2025-02-17 20:41:51","humor",0.59,"meme",35
+"I just found a story! It was funny.","Bob","2025-02-17 20:41:56","other",0.99,"other",35
+"I just saw an app! It was exciting.","Alice","2025-02-17 20:42:01","other",0.88,"other",35
+"I just tried a movie! It was funny.","Alice","2025-02-17 20:42:07","entertainment",0.82,"movie",35
+"I just found JavaScript! It was amazing.","Eve","2025-02-17 20:42:12","tech",0.82,"JavaScript",40
+"I just loved a meme! It was exciting.","Charlie","2025-02-17 20:42:17","humor",0.61,"meme",37
+"I just found recipe! It was amazing.","Bob","2025-02-17 20:42:22","food",0.35,"recipe",36
+"I just found a movie! It was funny.","Charlie","2025-02-17 20:42:27","entertainment",0.23,"movie",35
+"I just loved a movie! It was weird.","Charlie","2025-02-17 20:42:32","entertainment",0.49,"movie",35
+"I just saw an app! It was amazing.","Charlie","2025-02-17 20:42:37","other",0.43,"other",34
+"I just found recipe! It was funny.","Eve","2025-02-17 20:42:42","food",0.1,"recipe",34
+"I just found an app! It was boring.","Bob","2025-02-17 20:42:47","other",0.01,"other",35
+"I just loved an app! It was weird.","Charlie","2025-02-17 20:42:52","other",0.21,"other",34
+"I just saw travel! It was exciting.","Eve","2025-02-17 20:42:57","travel",0.65,"travel",35
+"I just loved recipe! It was exciting.","Alice","2025-02-17 20:43:02","food",0.04,"recipe",37
+"I just loved travel! It was weird.","Bob","2025-02-17 20:43:07","travel",0.78,"travel",34
+"I just saw a movie! It was boring.","Eve","2025-02-17 20:43:12","entertainment",0.89,"movie",34
+"I just loved JavaScript! It was weird.","Charlie","2025-02-17 20:43:17","tech",0.31,"JavaScript",38
+"I just loved recipe! It was funny.","Eve","2025-02-17 20:43:22","food",0.66,"recipe",34
+"I just shared a trick! It was boring.","Alice","2025-02-17 20:43:27","other",0.29,"other",37
+"I just shared a movie! It was exciting.","Charlie","2025-02-17 20:43:32","entertainment",0.03,"movie",39
+"I just tried a movie! It was weird.","Bob","2025-02-17 20:43:37","entertainment",0.86,"movie",35
+"I just shared a movie! It was boring.","Alice","2025-02-17 20:43:42","entertainment",0.75,"movie",37
+"I just shared recipe! It was amazing.","Bob","2025-02-17 20:43:47","food",0.07,"recipe",37
+"I just loved JavaScript! It was exciting.","Eve","2025-02-17 20:43:52","tech",0.41,"JavaScript",41
+"I just loved travel! It was boring.","Eve","2025-02-17 20:43:57","travel",0.13,"travel",35
+"I just shared JavaScript! It was amazing.","Charlie","2025-02-17 20:44:02","tech",0.36,"JavaScript",41
+"I just loved game! It was funny.","Charlie","2025-02-17 20:44:07","gaming",0.8,"game",32
+"I just saw a movie! It was weird.","Charlie","2025-02-17 20:44:12","entertainment",0.91,"movie",33
+"I just saw recipe! It was funny.","Alice","2025-02-17 20:44:17","food",1.0,"recipe",32
+"I just shared JavaScript! It was funny.","Eve","2025-02-17 20:44:22","tech",0.89,"JavaScript",39
+"I just tried an app! It was weird.","Eve","2025-02-17 20:44:27","other",0.88,"other",34
+"I just saw game! It was exciting.","Alice","2025-02-17 20:44:32","gaming",0.46,"game",33
+"I just shared recipe! It was boring.","Charlie","2025-02-17 20:44:37","food",0.5,"recipe",36
+"I just saw game! It was exciting.","Bob","2025-02-17 20:44:42","gaming",0.58,"game",33
+"I just saw travel! It was funny.","Charlie","2025-02-17 20:44:47","travel",0.94,"travel",32
+"I just saw recipe! It was weird.","Alice","2025-02-17 20:44:52","food",0.4,"recipe",32
+"I just saw a meme! It was boring.","Bob","2025-02-17 20:44:57","humor",0.73,"meme",33
+"I just tried JavaScript! It was weird.","Alice","2025-02-17 20:37:11","tech",0.32,"JavaScript",38
+"I just found game! It was exciting.","Charlie","2025-02-17 20:37:16","gaming",0.99,"game",35
+"I just loved an app! It was exciting.","Eve","2025-02-17 20:37:21","other",0.45,"other",37
+"I just shared JavaScript! It was amazing.","Eve","2025-02-17 20:37:26","tech",0.35,"JavaScript",41
+"I just found a story! It was weird.","Bob","2025-02-17 20:37:31","other",0.22,"other",35
+"I just saw game! It was exciting.","Charlie","2025-02-17 20:37:36","gaming",0.33,"game",33
+"I just loved a movie! It was amazing.","Eve","2025-02-17 20:37:41","entertainment",0.29,"movie",37
+"I just tried a story! It was exciting.","Bob","2025-02-17 20:37:46","other",0.31,"other",38
+"I just loved an app! It was boring.","Bob","2025-02-17 20:37:51","other",0.04,"other",35
+"I just found an app! It was amazing.","Bob","2025-02-17 20:37:56","other",0.11,"other",36
+"I just found a meme! It was boring.","Alice","2025-02-17 20:38:01","humor",0.99,"meme",35
+"I just found JavaScript! It was boring.","Alice","2025-02-17 20:38:06","tech",0.99,"JavaScript",39
+"I just tried a trick! It was boring.","Charlie","2025-02-17 20:38:11","other",0.91,"other",36
+"I just saw a story! It was amazing.","Eve","2025-02-17 20:38:16","other",0.69,"other",35
+"I just loved an app! It was boring.","Alice","2025-02-17 20:38:21","other",0.53,"other",35
+"I just tried Python! It was amazing.","Eve","2025-02-17 20:38:26","tech",0.02,"Python",36
+"I just tried an app! It was funny.","Eve","2025-02-17 20:38:31","other",0.36,"other",34
+"I just loved game! It was boring.","Bob","2025-02-17 20:38:36","gaming",0.66,"game",33
+"I just tried an app! It was amazing.","Charlie","2025-02-17 20:38:41","other",0.98,"other",36
+"I just found a trick! It was funny.","Eve","2025-02-17 20:38:46","other",0.46,"other",35
+"I just shared recipe! It was weird.","Bob","2025-02-17 20:38:51","food",0.46,"recipe",35
+"I just saw recipe! It was amazing.","Bob","2025-02-17 20:38:56","food",0.4,"recipe",34
+"I just loved a trick! It was funny.","Eve","2025-02-17 20:39:01","other",0.87,"other",35
+"I just shared Python! It was boring.","Alice","2025-02-17 20:39:06","tech",0.73,"Python",36
+"I just saw JavaScript! It was weird.","Charlie","2025-02-17 20:39:11","tech",0.93,"JavaScript",36
+"I just shared recipe! It was weird.","Bob","2025-02-17 20:39:16","food",0.96,"recipe",35
+"I just found JavaScript! It was exciting.","Eve","2025-02-17 20:39:21","tech",0.35,"JavaScript",41
+"I just found game! It was weird.","Bob","2025-02-17 20:39:26","gaming",0.61,"game",32
+"I just found a story! It was funny.","Bob","2025-02-17 20:39:31","other",0.86,"other",35
+"I just saw recipe! It was boring.","Eve","2025-02-17 20:39:36","food",0.36,"recipe",33
+"I just found a trick! It was funny.","Bob","2025-02-17 20:39:41","other",0.29,"other",35
+"I just shared an app! It was funny.","Charlie","2025-02-17 20:39:46","other",0.27,"other",35
+"I just saw a story! It was amazing.","Alice","2025-02-17 20:39:51","other",0.69,"other",35
+"I just found a movie! It was weird.","Charlie","2025-02-17 20:39:56","entertainment",0.78,"movie",35
+"I just found a trick! It was amazing.","Bob","2025-02-17 20:40:01","other",0.52,"other",37
+"I just shared game! It was funny.","Alice","2025-02-17 21:07:43","gaming",0.87,"game",33
+"I just shared a trick! It was funny.","Bob","2025-02-17 21:07:48","other",0.51,"other",36
+"I just loved recipe! It was weird.","Eve","2025-02-17 21:07:53","food",0.35,"recipe",34
+"I just found a trick! It was boring.","Bob","2025-02-17 21:07:58","other",0.64,"other",36
+"I just found a meme! It was funny.","Alice","2025-02-17 21:08:03","humor",0.11,"meme",34
+"I just shared a story! It was funny.","Charlie","2025-02-17 21:08:08","other",0.71,"other",36
+"I just saw Python! It was exciting.","Eve","2025-02-17 21:08:13","tech",0.58,"Python",35
+"I just tried JavaScript! It was exciting.","Charlie","2025-02-17 21:08:18","tech",0.06,"JavaScript",41
+"I just found recipe! It was weird.","Alice","2025-02-17 21:08:23","food",0.78,"recipe",34
+"I just found recipe! It was weird.","Charlie","2025-02-17 21:08:28","food",0.89,"recipe",34
+"I just tried Python! It was amazing.","Alice","2025-02-17 21:08:38","tech",0.27,"Python",36
+"I just saw Python! It was weird.","Alice","2025-02-17 21:08:43","tech",0.46,"Python",32
+"I just tried travel! It was weird.","Eve","2025-02-17 21:08:48","travel",0.05,"travel",34
