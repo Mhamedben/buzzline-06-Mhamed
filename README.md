@@ -7,11 +7,22 @@ The pipeline consists of two main components:
    ### 1- Producer (Producer_Mhamed.py): 
    The producer continuously generates mock sentiment data for various stock tickers (e.g., AAPL, TSLA, MSFT, etc.) and sends it to a Kafka topic. Each data point includes: A timestamp, A stock ticker and a sentiment score (between -1 and 1), which represents the overall sentiment around the stock.
     
-  ### 2- Consumer (Consumer_Mhamed.py):
+### 2- Consumer (Consumer_Mhamed.py):
   The consumer listens to the Kafka topic, stores incoming sentiment data in an SQLite database, and visualizes the data using real-time charts. The consumer generates:
      -1 Bar Chart: Displays the current sentiment score for each stock ticker.
      -2 Line Chart: Shows the sentiment trend over time, smoothed with a moving average.
      -3 Volatility Chart: Displays the sentiment volatility (standard deviation) for each ticker.
+
+### 4. Start Kafka and Zookeeper:
+  - Start Zookeeper (Terminal 1)
+      - WSL
+      - ./bin/zookeeper-server-start.sh
+      - ./bin/zookeeper-server-start.sh config/zookeeper.properties
+   - Start Kafka (Terminal 2)
+      - WSL
+      - ./bin/kafka-server-start.sh
+      - ./bin/kafka-server-start.sh config/server.properties
+
 Insight Focus
 The core insights provided by this system are:
 
