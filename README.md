@@ -23,15 +23,15 @@ Ensure you have the following installed:
 
 ## Running the Pipeline
 ### 1. Start the Zookeeper "Terminal 1"
-WSL
-cd ~/kafka
-bin/zookeeper-server-start.sh
-bin/zookeeper-server-start.sh config/zookeeper.properties
+   - WSL
+   - cd ~/kafka
+   - bin/zookeeper-server-start.sh
+   - bin/zookeeper-server-start.sh config/zookeeper.properties
 ### 2. Start the Kafka "Terminal 2"
-WSL
-cd ~/kafka
-bin/kafka-server-start.sh
-bin/kafka-server-start.sh config/server.properties
+   - WSL
+   - cd ~/kafka
+   - bin/kafka-server-start.sh
+   - bin/kafka-server-start.sh config/server.properties
 ### 3. Run the Producer "Terminal 3"
 py -m producers.producer_Mhamed
 
