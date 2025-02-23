@@ -111,9 +111,9 @@ for message in consumer:
     timestamps_data[data["ticker"]].append(data["timestamp"])
 
     # Start visualizations
-    ani1 = animation.FuncAnimation(fig1, update_bar_chart, interval=1000)
-    ani2 = animation.FuncAnimation(fig2, update_sentiment_trend, interval=1000)
-    ani3 = animation.FuncAnimation(fig3, update_volatility_chart, interval=1000)
+    ani1 = animation.FuncAnimation(fig1, update_bar_chart, interval=500)
+    ani2 = animation.FuncAnimation(fig2, update_sentiment_trend, interval=500)
+    ani3 = animation.FuncAnimation(fig3, update_volatility_chart, interval=500)
 
     plt.show(block=False)
     plt.pause(0.1)

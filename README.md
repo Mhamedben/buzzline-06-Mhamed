@@ -32,6 +32,7 @@ Ensure you have the following installed:
    - cd ~/kafka
    - bin/kafka-server-start.sh
    - bin/kafka-server-start.sh config/server.properties
+   bin/kafka-server-start.sh config/server.properties
 ### 3. Run the Producer "Terminal 3"
 py -m producers.producer_Mhamed
 
