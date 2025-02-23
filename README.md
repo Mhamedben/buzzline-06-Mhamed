@@ -2,7 +2,7 @@
 # Introduction: 
 This project will help analyze the connection between public sentiment and stock market movements by providing real-time insights into how news and social media discussions affect stocks.
 
-Stock Sentiment Streaming Pipeline
+# Module 6 Project: Stock Sentiment Streaming Pipeline
 This project implements a real-time stock sentiment analysis pipeline that streams data from a producer to a consumer using Kafka. The producer generates mock sentiment data for various stock tickers, and the consumer listens for updates, processes the data, and visualizes the sentiment trends and volatility over time.
 
 Overview
