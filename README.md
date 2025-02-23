@@ -1,5 +1,3 @@
-# Module 6 Project: Stock Sentiment Streaming Pipeline
-This project implements a real-time stock sentiment analysis pipeline that streams data from a producer to a consumer using Kafka. The producer generates mock sentiment data for various stock tickers, and the consumer listens for updates, processes the data, and visualizes the sentiment trends and volatility over time.
 
 ## Overview
 The pipeline consists of two main components:
@@ -84,3 +82,37 @@ Copy
     └── volatility_chart.png
 Conclusion
 This pipeline demonstrates how you can combine Kafka for real-time data streaming with SQLite for data storage and Matplotlib for dynamic data visualization. It's a useful setup for streaming and visualizing stock sentiment in real-time, providing insights into market trends and sentiment volatility.
+
+# Module 6 Project: Stock Sentiment Streaming Pipeline
+This project implements a real-time stock sentiment analysis pipeline that streams data from a producer to a consumer using Kafka. The producer generates mock sentiment data for various stock tickers, and the consumer listens for updates, processes the data, and visualizes the sentiment trends and volatility over time.
+
+## Overview
+The pipeline consists of two main components:
+
+### Producer (Producer_Mhamed.py): 
+The producer continuously generates mock sentiment data for various stock tickers (e.g., AAPL, TSLA, MSFT, etc.) and sends it to a Kafka topic. Each data point includes: A timestamp, A stock ticker and a sentiment score (between -1 and 1), which represents the overall sentiment around the stock.
+### Consumer (Consumer_Mhamed.py):
+   The consumer listens to the Kafka topic, stores incoming sentiment data in an SQLite database, and visualizes the data using real-time charts. 
+      - 1- The consumer generates
+      - 2- Bar Chart: Displays the current sentiment score for each stock ticker.
+      - 3- Line Chart: Shows the sentiment trend over time, smoothed with a moving average.
+      - 4- Volatility Chart: Displays the sentiment volatility (standard deviation) for each ticker.
+
+
+## Insight Focus
+
+### Real-Time Sentiment
+### Sentiment Trends
+### Volatility Analysis
+
+## Running the Pipeline
+
+### 1. Start the Kafka Broker
+### 2. Run the Producer
+### 3. Run the Consumer
+
+## Visualization
+
+## Directory Structure
+
+## Conclusion
