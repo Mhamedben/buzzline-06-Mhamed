@@ -93,7 +93,7 @@ The pipeline consists of two main components:
 The producer continuously generates mock sentiment data for various stock tickers (e.g., AAPL, TSLA, MSFT, etc.) and sends it to a Kafka topic. Each data point includes: A timestamp, A stock ticker and a sentiment score (between -1 and 1), which represents the overall sentiment around the stock.
 ### Consumer (Consumer_Mhamed.py):
    The consumer listens to the Kafka topic, stores incoming sentiment data in an SQLite database, and visualizes the data using real-time charts. 
-      - 1- The consumer generates
+#### The consumer generates:
       - 2- Bar Chart: Displays the current sentiment score for each stock ticker.
       - 3- Line Chart: Shows the sentiment trend over time, smoothed with a moving average.
       - 4- Volatility Chart: Displays the sentiment volatility (standard deviation) for each ticker.
