@@ -9,10 +9,9 @@ The pipeline consists of two main components:
     
   ### 2- Consumer (Consumer_Mhamed.py):
   The consumer listens to the Kafka topic, stores incoming sentiment data in an SQLite database, and visualizes the data using real-time charts. The consumer generates:
-
-Bar Chart: Displays the current sentiment score for each stock ticker.
-Line Chart: Shows the sentiment trend over time, smoothed with a moving average.
-Volatility Chart: Displays the sentiment volatility (standard deviation) for each ticker.
+     -1 Bar Chart: Displays the current sentiment score for each stock ticker.
+     -2 Line Chart: Shows the sentiment trend over time, smoothed with a moving average.
+     -3 Volatility Chart: Displays the sentiment volatility (standard deviation) for each ticker.
 Insight Focus
 The core insights provided by this system are:
 
