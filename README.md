@@ -18,7 +18,6 @@ The producer continuously generates mock sentiment data for various stock ticker
 Ensure you have the following installed:
 
    - WSL (Windows Subsystem for Linux)
-
    - Apache Kafka
 
    - Python 3.x
