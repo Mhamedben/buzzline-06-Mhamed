@@ -9,6 +9,14 @@ The producer continuously generates mock sentiment data for various stock ticker
 ### 2. Consumer (Consumer_Mhamed.py):
    The consumer listens to the Kafka topic, stores incoming sentiment data in an SQLite database, and visualizes the data using real-time charts. 
   #### The consumer generates:
+### Prerequisites
+Ensure you have the following installed:
+
+   - Bar Chart: Displays the current sentiment score for each stock ticker.
+
+   - Apache Kafka
+
+   - Python 3.x
      
      - Bar Chart: Displays the current sentiment score for each stock ticker.
      
