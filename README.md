@@ -1,41 +1,50 @@
+# Module 6 Project: Stock Sentiment Streaming Pipeline
+This project implements a real-time stock sentiment analysis pipeline that streams data from a producer to a consumer using Kafka. The producer generates mock sentiment data for various stock tickers, and the consumer listens for updates, processes the data, and visualizes the sentiment trends and volatility over time.
 
 ## Overview
 The pipeline consists of two main components:
 
 ### 1. Producer (Producer_Mhamed.py): 
-   The producer continuously generates mock sentiment data for various stock tickers (e.g., AAPL, TSLA, MSFT, etc.) and sends it to a Kafka topic. Each data point includes: A timestamp, A stock ticker and a sentiment score (between -1 and 1), which represents the overall sentiment around the stock.
-    
+The producer continuously generates mock sentiment data for various stock tickers (e.g., AAPL, TSLA, MSFT, etc.) and sends it to a Kafka topic. Each data point includes: A timestamp, A stock ticker and a sentiment score (between -1 and 1), which represents the overall sentiment around the stock.
 ### 2. Consumer (Consumer_Mhamed.py):
-The consumer listens to the Kafka topic, stores incoming sentiment data in an SQLite database, and visualizes the data using real-time charts. 
-    - The consumer generates
-      - Bar Chart: Displays the current sentiment score for each stock ticker.
-      - Line Chart: Shows the sentiment trend over time, smoothed with a moving average.
-      - Volatility Chart: Displays the sentiment volatility (standard deviation) for each ticker.
+   The consumer listens to the Kafka topic, stores incoming sentiment data in an SQLite database, and visualizes the data using real-time charts. 
+  #### The consumer generates:
+     - 1- Bar Chart: Displays the current sentiment score for each stock ticker.
+     - 2- Line Chart: Shows the sentiment trend over time, smoothed with a moving average.
+     - 3- Volatility Chart: Displays the sentiment volatility (standard deviation) for each ticker.
 
-### 4. Start Kafka and Zookeeper:
-  - Start Zookeeper (Terminal 1)
-      - WSL
-      - ./bin/zookeeper-server-start.sh
-      - ./bin/zookeeper-server-start.sh config/zookeeper.properties
-   - Start Kafka (Terminal 2)
-      - WSL
-      - ./bin/kafka-server-start.sh
-      - ./bin/kafka-server-start.sh config/server.properties
+## Installation
+### Prerequisites
+Ensure you have the following installed:
 
-Insight Focus
-The core insights provided by this system are:
+   - WSL (Windows Subsystem for Linux)
 
-Real-Time Sentiment: The sentiment score for each stock ticker, updated every 10 seconds, gives insights into market sentiment towards specific stocks.
-Sentiment Trends: A smoothed moving average of sentiment scores over time helps to identify the overall trend for a specific stock.
-Volatility Analysis: A bar chart showing the volatility (standard deviation) of sentiment scores for each ticker. This helps to understand which stocks have more fluctuations in sentiment.
-Each time a message arrives:
+   - Apache Kafka
 
-Producer: Generates random data for a stock ticker, including a sentiment score.
-Consumer: Processes the data by storing it in an SQLite database and updating the visualizations:
-Adds the sentiment score to the appropriate stock ticker's list.
-Updates the bar chart showing the latest sentiment for each ticker.
-Updates the line chart showing sentiment trends and moving averages.
-Updates the volatility chart, which measures the sentiment score's fluctuations.
+   - Python 3.x
+
+
+
+## Insight Focus
+
+   ### Real-Time Sentiment
+   ### Sentiment Trends
+   ### Volatility Analysis
+
+## Running the Pipeline
+
+### 1. Start the Kafka Broker
+### 2. Run the Producer
+### 3. Run the Consumer
+
+## Visualization
+
+## Directory Structure
+
+## Conclusion
+
+
+
 Running the Pipeline
 1. Start the Kafka Broker
 Before running the producer or consumer, make sure you have a running Kafka broker on localhost:9092.
@@ -83,36 +92,33 @@ Copy
 Conclusion
 This pipeline demonstrates how you can combine Kafka for real-time data streaming with SQLite for data storage and Matplotlib for dynamic data visualization. It's a useful setup for streaming and visualizing stock sentiment in real-time, providing insights into market trends and sentiment volatility.
 
-# Module 6 Project: Stock Sentiment Streaming Pipeline
-This project implements a real-time stock sentiment analysis pipeline that streams data from a producer to a consumer using Kafka. The producer generates mock sentiment data for various stock tickers, and the consumer listens for updates, processes the data, and visualizes the sentiment trends and volatility over time.
-
-## Overview
-The pipeline consists of two main components:
-
-### 1. Producer (Producer_Mhamed.py): 
-The producer continuously generates mock sentiment data for various stock tickers (e.g., AAPL, TSLA, MSFT, etc.) and sends it to a Kafka topic. Each data point includes: A timestamp, A stock ticker and a sentiment score (between -1 and 1), which represents the overall sentiment around the stock.
-### 2. Consumer (Consumer_Mhamed.py):
-   The consumer listens to the Kafka topic, stores incoming sentiment data in an SQLite database, and visualizes the data using real-time charts. 
-  #### The consumer generates:
-     - 1- Bar Chart: Displays the current sentiment score for each stock ticker.
-     - 2- Line Chart: Shows the sentiment trend over time, smoothed with a moving average.
-     - 3- Volatility Chart: Displays the sentiment volatility (standard deviation) for each ticker.
 
 
-## Insight Focus
 
-### Real-Time Sentiment
-### Sentiment Trends
-### Volatility Analysis
 
-## Running the Pipeline
 
-### 1. Start the Kafka Broker
-### 2. Run the Producer
-### 3. Run the Consumer
+*****************
+### 4. Start Kafka and Zookeeper:
+  - Start Zookeeper (Terminal 1)
+      - WSL
+      - ./bin/zookeeper-server-start.sh
+      - ./bin/zookeeper-server-start.sh config/zookeeper.properties
+   - Start Kafka (Terminal 2)
+      - WSL
+      - ./bin/kafka-server-start.sh
+      - ./bin/kafka-server-start.sh config/server.properties
 
-## Visualization
+Insight Focus
+The core insights provided by this system are:
 
-## Directory Structure
+Real-Time Sentiment: The sentiment score for each stock ticker, updated every 10 seconds, gives insights into market sentiment towards specific stocks.
+Sentiment Trends: A smoothed moving average of sentiment scores over time helps to identify the overall trend for a specific stock.
+Volatility Analysis: A bar chart showing the volatility (standard deviation) of sentiment scores for each ticker. This helps to understand which stocks have more fluctuations in sentiment.
+Each time a message arrives:
 
-## Conclusion
+Producer: Generates random data for a stock ticker, including a sentiment score.
+Consumer: Processes the data by storing it in an SQLite database and updating the visualizations:
+Adds the sentiment score to the appropriate stock ticker's list.
+Updates the bar chart showing the latest sentiment for each ticker.
+Updates the line chart showing sentiment trends and moving averages.
+Updates the volatility chart, which measures the sentiment score's fluctuations.
