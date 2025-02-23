@@ -1,19 +1,10 @@
-# Module 6 Project: buzzline-06-Mhamed
-# Introduction: 
-This project will help analyze the connection between public sentiment and stock market movements by providing real-time insights into how news and social media discussions affect stocks.
-
 # Module 6 Project: Stock Sentiment Streaming Pipeline
 This project implements a real-time stock sentiment analysis pipeline that streams data from a producer to a consumer using Kafka. The producer generates mock sentiment data for various stock tickers, and the consumer listens for updates, processes the data, and visualizes the sentiment trends and volatility over time.
 
-Overview
+## Overview
 The pipeline consists of two main components:
-
-Producer (Producer_Mhamed.py): The producer continuously generates mock sentiment data for various stock tickers (e.g., AAPL, TSLA, MSFT, etc.) and sends it to a Kafka topic. Each data point includes:
-
-A timestamp.
-A stock ticker.
-A sentiment score (between -1 and 1), which represents the overall sentiment around the stock.
-Consumer (Consumer_Mhamed.py): The consumer listens to the Kafka topic, stores incoming sentiment data in an SQLite database, and visualizes the data using real-time charts. The consumer generates:
+    - 1 Producer (Producer_Mhamed.py): The producer continuously generates mock sentiment data for various stock tickers (e.g., AAPL, TSLA, MSFT, etc.) and sends it to a Kafka topic. Each data point includes: A timestamp, A stock ticker and a sentiment score (between -1 and 1), which represents the overall sentiment around the stock.
+    - 2 Consumer (Consumer_Mhamed.py): The consumer listens to the Kafka topic, stores incoming sentiment data in an SQLite database, and visualizes the data using real-time charts. The consumer generates:
 
 Bar Chart: Displays the current sentiment score for each stock ticker.
 Line Chart: Shows the sentiment trend over time, smoothed with a moving average.
