@@ -43,8 +43,15 @@ consumer = KafkaConsumer(
 sentiment_data = {ticker: deque(maxlen=10) for ticker in ["INTC", "MSFT", "PFE", "COST", "TSLA", "GOOG", "AAPL"]}
 timestamps_data = {ticker: deque(maxlen=10) for ticker in ["INTC", "MSFT", "PFE", "COST", "TSLA", "GOOG", "AAPL"]}
 
+<<<<<<< HEAD
 # Initialize Matplotlib figure with subplots (1 row, 3 columns)
 fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(10, 5))  # 1x3 grid of subplots
+=======
+# Initialize Matplotlib figures
+fig1, ax1 = plt.subplots()  # Figure 1: Bar Chart
+fig2, ax2 = plt.subplots()  # Figure 2: Line Chart for Sentiment Over Time
+fig3, ax3 = plt.subplots()  # Figure 3: Volatility Chart
+>>>>>>> 2d2b3226f1f91ad5e6b1216d66f4f240354224aa
 
 # Function to calculate moving average
 def moving_average(values, window=5):
@@ -93,29 +100,31 @@ def update_bar_chart(frame):
     ax1.set_ylabel("Sentiment Score")
     ax1.set_title("Real-Time Sentiment Distribution")
 
-# Initialize animations outside the loop
-ani1 = animation.FuncAnimation(fig, update_bar_chart, frames=1, interval=500)
-ani2 = animation.FuncAnimation(fig, update_sentiment_trend, frames=1, interval=500)
-ani3 = animation.FuncAnimation(fig, update_volatility_chart, frames=1, interval=500)
+# Initialize animation
+ani1 = animation.FuncAnimation(fig1, update_bar_chart, interval=500)
+ani2 = animation.FuncAnimation(fig2, update_sentiment_trend, interval=500)
+ani3 = animation.FuncAnimation(fig3, update_volatility_chart, interval=500)
 
-# Display the plots
-plt.tight_layout()
+# Start visualizations
 plt.show(block=False)
 
 # Listen for Kafka messages
 print(f"📥 Listening to Kafka topic: {KAFKA_TOPIC}")
+
 for message in consumer:
     data = message.value
     print(f"📊 Received: {data}")
 
     # Store in database
-    cursor.execute("INSERT INTO stock_sentiment (timestamp, ticker, sentiment_score) VALUES (?, ?, ?)",
-                   (data["timestamp"], data["ticker"], data["sentiment_score"]))
-    conn.commit()
+    try:
+        cursor.execute("INSERT INTO stock_sentiment (timestamp, ticker, sentiment_score) VALUES (?, ?, ?)",
+                       (data["timestamp"], data["ticker"], data["sentiment_score"]))
+        conn.commit()
+    except Exception as e:
+        print(f"Error storing data: {e}")
 
     # Update sentiment tracking and timestamps
     sentiment_data[data["ticker"]].append(data["sentiment_score"])
     timestamps_data[data["ticker"]].append(data["timestamp"])
 
-    # Pause briefly to allow the animation to update
-    plt.pause(0.1)
+    plt.pause(0.1)  # This allows real-time updates without blocking
