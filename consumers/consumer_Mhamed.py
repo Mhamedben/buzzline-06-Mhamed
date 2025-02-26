@@ -95,25 +95,31 @@ def update_bar_chart(frame):
     ax1.set_ylabel("Sentiment Score")
     ax1.set_title("Real-Time Sentiment Distribution")
 
+# Initialize animation
+ani1 = animation.FuncAnimation(fig1, update_bar_chart, interval=500)
+ani2 = animation.FuncAnimation(fig2, update_sentiment_trend, interval=500)
+ani3 = animation.FuncAnimation(fig3, update_volatility_chart, interval=500)
+
+# Start visualizations
+plt.show(block=False)
+
 # Listen for Kafka messages
 print(f"📥 Listening to Kafka topic: {KAFKA_TOPIC}")
+
 for message in consumer:
     data = message.value
     print(f"📊 Received: {data}")
 
     # Store in database
-    cursor.execute("INSERT INTO stock_sentiment (timestamp, ticker, sentiment_score) VALUES (?, ?, ?)",
-                   (data["timestamp"], data["ticker"], data["sentiment_score"]))
-    conn.commit()
+    try:
+        cursor.execute("INSERT INTO stock_sentiment (timestamp, ticker, sentiment_score) VALUES (?, ?, ?)",
+                       (data["timestamp"], data["ticker"], data["sentiment_score"]))
+        conn.commit()
+    except Exception as e:
+        print(f"Error storing data: {e}")
 
     # Update sentiment tracking and timestamps
     sentiment_data[data["ticker"]].append(data["sentiment_score"])
     timestamps_data[data["ticker"]].append(data["timestamp"])
 
-    # Start visualizations
-    ani1 = animation.FuncAnimation(fig1, update_bar_chart, interval=500)
-    ani2 = animation.FuncAnimation(fig2, update_sentiment_trend, interval=500)
-    ani3 = animation.FuncAnimation(fig3, update_volatility_chart, interval=500)
-
-    plt.show(block=False)
-    plt.pause(0.1)
+    plt.pause(0.1)  # This allows real-time updates without blocking
