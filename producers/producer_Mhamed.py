@@ -9,7 +9,7 @@ import os
 load_dotenv()
 
 # Kafka configuration
-KAFKA_TOPIC = os.getenv("KAFKA_TOPIC", "buzzline-06-Mhamed")
+KAFKA_TOPIC = os.getenv("KAFKA_TOPIC", "buzzline-07-Mhamed")
 KAFKA_SERVER = os.getenv("KAFKA_BROKER_ADDRESS", "localhost:9092")
 
 # Initialize Kafka producer

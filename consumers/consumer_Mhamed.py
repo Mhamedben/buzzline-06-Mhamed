@@ -12,11 +12,11 @@ import numpy as np
 load_dotenv()
 
 # Kafka configuration
-KAFKA_TOPIC = os.getenv("KAFKA_TOPIC", "buzzline-06-Mhamed")
+KAFKA_TOPIC = os.getenv("KAFKA_TOPIC", "buzzline-07-Mhamed")
 KAFKA_SERVER = os.getenv("KAFKA_BROKER_ADDRESS", "localhost:9092")
 
 # SQLite database setup
-DB_FILE = "buzzline-06-Mhamed.sqlite"
+DB_FILE = "buzzline-07-Mhamed.sqlite"
 conn = sqlite3.connect(DB_FILE, check_same_thread=False)
 cursor = conn.cursor()
 
@@ -44,7 +44,7 @@ sentiment_data = {ticker: deque(maxlen=10) for ticker in ["INTC", "MSFT", "PFE",
 timestamps_data = {ticker: deque(maxlen=10) for ticker in ["INTC", "MSFT", "PFE", "COST", "TSLA", "GOOG", "AAPL"]}
 
 # Initialize Matplotlib figure with subplots (1 row, 3 columns)
-fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(15, 5))  # 1x3 grid of subplots
+fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(10, 5))  # 1x3 grid of subplots
 
 # Function to calculate moving average
 def moving_average(values, window=5):
