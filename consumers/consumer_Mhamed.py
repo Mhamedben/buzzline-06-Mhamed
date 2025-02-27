@@ -43,10 +43,8 @@ consumer = KafkaConsumer(
 sentiment_data = {ticker: deque(maxlen=10) for ticker in ["INTC", "MSFT", "PFE", "COST", "TSLA", "GOOG", "AAPL"]}
 timestamps_data = {ticker: deque(maxlen=10) for ticker in ["INTC", "MSFT", "PFE", "COST", "TSLA", "GOOG", "AAPL"]}
 
-# Initialize Matplotlib figures
-fig1, ax1 = plt.subplots()  # Figure 1: Bar Chart
-fig2, ax2 = plt.subplots()  # Figure 2: Line Chart for Sentiment Over Time
-fig3, ax3 = plt.subplots()  # Figure 3: Volatility Chart
+# Initialize Matplotlib figure with subplots (1 row, 3 columns)
+fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(10, 5))  # 1x3 grid of subplots
 
 # Function to calculate moving average
 def moving_average(values, window=5):
@@ -96,9 +94,9 @@ def update_bar_chart(frame):
     ax1.set_title("Real-Time Sentiment Distribution")
 
 # Initialize animation
-ani1 = animation.FuncAnimation(fig1, update_bar_chart, interval=500)
-ani2 = animation.FuncAnimation(fig2, update_sentiment_trend, interval=500)
-ani3 = animation.FuncAnimation(fig3, update_volatility_chart, interval=500)
+ani1 = animation.FuncAnimation(fig, update_bar_chart, interval=500)
+ani2 = animation.FuncAnimation(fig, update_sentiment_trend, interval=500)
+ani3 = animation.FuncAnimation(fig, update_volatility_chart, interval=500)
 
 # Start visualizations
 plt.show(block=False)
