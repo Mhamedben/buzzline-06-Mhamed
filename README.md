@@ -52,6 +52,8 @@ The consumer generates an interactive figure with three subplots:
    2.	Sentiment Trends: A line chart tracking sentiment over time with a moving average to smooth out fluctuations.
    3.	Sentiment Volatility: A bar chart highlighting the standard deviation of sentiment, indicating periods of high or low volatility.:
 
+![image](https://github.com/user-attachments/assets/acd7e87f-8ce0-41bd-97f9-0776095b9959)
+
   
 
 ## Conclusion
