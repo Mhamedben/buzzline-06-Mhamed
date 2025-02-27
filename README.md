@@ -47,13 +47,14 @@ Before runnung the producer and the consumer be sure that you have installed mat
 
 ## Visualization
 
-The consumer generates three dynamic visualizations:
+The consumer generates an interactive figure with three subplots:
+   1.	Sentiment Distribution: A bar chart showing the breakdown of sentiment (positive, neutral, negative) across the data.
+   2.	Sentiment Trends: A line chart tracking sentiment over time with a moving average to smooth out fluctuations.
+   3.	Sentiment Volatility: A bar chart highlighting the standard deviation of sentiment, indicating periods of high or low volatility.:
 
-   - Real-Time Sentiment Distribution (Bar Chart): This chart updates every second, showing the latest sentiment score for each stock ticker, color-coded for positive (green) and negative (red) sentiment.
-
-   - Sentiment Trends (Line Chart): This chart shows the moving average of sentiment scores for each stock over time.
-
-   - Volatility (Bar Chart): This chart displays the volatility (standard deviation) of sentiment scores for each stock ticker.
+  
 
 ## Conclusion
 This pipeline demonstrates how you can combine Kafka for real-time data streaming with SQLite for data storage and Matplotlib for dynamic data visualization. It's a useful setup for streaming and visualizing stock sentiment in real-time, providing insights into market trends and sentiment volatility.
+
+
